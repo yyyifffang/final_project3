@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.final_project3.GameActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/ivZeroZero"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivZeroOne"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivZeroTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivZeroThree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/ivOneZero"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivOneOne"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivOneTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivOneThree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/ivTwoZero"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivTwoOne"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivTwoTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivTwoThree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/ivThreeZero"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivThreeOne"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivThreeTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/ivThreeThree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="whackAMole"
+            android:clickable="false"
+            android:background="@drawable/emptyhole"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/btStartWhackAMole"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="btnClick"
+            android:text="开始"/>
+        <TextView
+            android:id="@+id/tvWhackAMoleScore"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="分数"/>
+        <Button
+            android:id="@+id/btStopWhackAMole"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:onClick="btnClick"
+            android:text="结束"/>
+    </LinearLayout>
+
+</LinearLayout>
