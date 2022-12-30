@@ -171,20 +171,22 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="60dp">
+
         <Button
             android:id="@+id/btStartWhackAMole"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:onClick="btnClick"
-            android:text="开始"/>
+            android:text="開始" />
+
         <TextView
             android:id="@+id/tvWhackAMoleScore"
-            android:gravity="center"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:text="分数"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="分數" />
         <Button
             android:id="@+id/btStopWhackAMole"
             android:layout_width="0dp"
